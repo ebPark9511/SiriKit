@@ -26,47 +26,41 @@
         <!--View Controller-->
         <scene sceneID="vbj-ib-sQB">
             <objects>
-                <viewController id="FTZ-Hx-Dfn" sceneMemberID="viewController">
+                <viewController id="FTZ-Hx-Dfn" customClass="ViewController" customModule="SiriKit_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Q3-6g-Wr7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAY-Fp-2QR">
-                                <rect key="frame" x="0.0" y="88" width="414" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="rRb-PD-e9v"/>
-                                </constraints>
-                                <state key="normal" title="present"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ysa-co-Wdd">
-                                <rect key="frame" x="0.0" y="168" width="414" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="Tac-0x-nO3"/>
-                                </constraints>
-                                <state key="normal" title="push"/>
-                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="brO-06-ge6">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="cW6-aV-KkF" firstAttribute="trailing" secondItem="wAY-Fp-2QR" secondAttribute="trailing" id="1mh-wW-kmu"/>
-                            <constraint firstItem="Ysa-co-Wdd" firstAttribute="leading" secondItem="2Q3-6g-Wr7" secondAttribute="leading" id="4G9-RN-LLy"/>
-                            <constraint firstItem="Ysa-co-Wdd" firstAttribute="top" secondItem="wAY-Fp-2QR" secondAttribute="bottom" id="ZmQ-hR-UHh"/>
-                            <constraint firstItem="cW6-aV-KkF" firstAttribute="trailing" secondItem="Ysa-co-Wdd" secondAttribute="trailing" id="eW2-HY-G1n"/>
-                            <constraint firstItem="wAY-Fp-2QR" firstAttribute="leading" secondItem="cW6-aV-KkF" secondAttribute="leading" id="k22-ZL-GfL"/>
-                            <constraint firstItem="wAY-Fp-2QR" firstAttribute="top" secondItem="cW6-aV-KkF" secondAttribute="top" id="nTv-4T-pa4"/>
+                            <constraint firstItem="brO-06-ge6" firstAttribute="top" secondItem="cW6-aV-KkF" secondAttribute="top" id="5zV-mM-yjF"/>
+                            <constraint firstItem="cW6-aV-KkF" firstAttribute="bottom" secondItem="brO-06-ge6" secondAttribute="bottom" id="FyL-fz-CAi"/>
+                            <constraint firstItem="brO-06-ge6" firstAttribute="leading" secondItem="cW6-aV-KkF" secondAttribute="leading" id="Mgh-Jw-DVZ"/>
+                            <constraint firstItem="cW6-aV-KkF" firstAttribute="trailing" secondItem="brO-06-ge6" secondAttribute="trailing" id="SNv-UZ-SlD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cW6-aV-KkF"/>
                     </view>
                     <navigationItem key="navigationItem" id="0VD-gT-T0t"/>
+                    <connections>
+                        <outlet property="textView" destination="brO-06-ge6" id="bWP-nY-K57"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fPm-o4-dAr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2058" y="505"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="xEj-k8-UuW">
             <objects>
-                <viewController id="PNV-Jg-n6Z" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="PNV-Jg-n6Z" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q84-ou-tWx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,6 +79,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IdT-dU-zyS"/>
                     </view>
+                    <connections>
+                        <outlet property="lable" destination="Txr-Fz-gvv" id="ooL-YI-qis"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XtC-ho-l9H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
