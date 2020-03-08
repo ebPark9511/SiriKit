@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B29CD55224153AE200435990 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29CD55024153AE200435990 /* WeatherViewController.swift */; };
+		B29CD55324153AE200435990 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29CD55124153AE200435990 /* CityTableViewController.swift */; };
+		B29CD55924153AE900435990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29CD55524153AE900435990 /* LaunchScreen.storyboard */; };
+		B29CD55A24153AE900435990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29CD55724153AE900435990 /* Main.storyboard */; };
+		B29CD55D24153AF300435990 /* PendingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29CD55C24153AF300435990 /* PendingIndicator.swift */; };
 		B2D3A67A24151FC800DCB7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A67924151FC800DCB7FA /* AppDelegate.swift */; };
 		B2D3A67C24151FC800DCB7FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A67B24151FC800DCB7FA /* SceneDelegate.swift */; };
 		B2D3A67E24151FC800DCB7FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A67D24151FC800DCB7FA /* ViewController.swift */; };
-		B2D3A68124151FC800DCB7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D3A67F24151FC800DCB7FA /* Main.storyboard */; };
 		B2D3A68324151FCB00DCB7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D3A68224151FCB00DCB7FA /* Assets.xcassets */; };
-		B2D3A68624151FCB00DCB7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D3A68424151FCB00DCB7FA /* LaunchScreen.storyboard */; };
 		B2D3A69124151FCB00DCB7FA /* Siri_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A69024151FCB00DCB7FA /* Siri_SampleTests.swift */; };
-		B2D3A69C24151FCB00DCB7FA /* Siri_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A69B24151FCB00DCB7FA /* Siri_SampleUITests.swift */; };
 		B2D3A7892415266600DCB7FA /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D3A7802415266600DCB7FA /* WeatherKit.framework */; };
 		B2D3A7902415266600DCB7FA /* WeatherKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A78F2415266600DCB7FA /* WeatherKitTests.swift */; };
 		B2D3A7922415266600DCB7FA /* WeatherKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D3A7822415266600DCB7FA /* WeatherKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,17 +33,19 @@
 		B2D3A7B124152B5C00DCB7FA /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7AF24152B5C00DCB7FA /* APIManagerTests.swift */; };
 		B2D3A7B424152B6100DCB7FA /* WeatherManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7B224152B6100DCB7FA /* WeatherManagerTests.swift */; };
 		B2D3A7B524152B6100DCB7FA /* WeatherKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7B324152B6100DCB7FA /* WeatherKitTests.swift */; };
+		B2D3A7BD24152DF200DCB7FA /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7BC24152DF200DCB7FA /* IntentHandler.swift */; };
+		B2D3A7D224152DF200DCB7FA /* CityWeatherIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B2D3A7BA24152DF200DCB7FA /* CityWeatherIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B2D3A7DA24152E0B00DCB7FA /* WeatherKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D3A7802415266600DCB7FA /* WeatherKit.framework */; };
+		B2D3A7DB24152E0B00DCB7FA /* WeatherKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B2D3A7802415266600DCB7FA /* WeatherKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2D3A7E124152E7D00DCB7FA /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7E024152E7D00DCB7FA /* Intents.intentdefinition */; };
+		B2D3A7E224152E8E00DCB7FA /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7E024152E7D00DCB7FA /* Intents.intentdefinition */; };
+		B2D3A7E324152E8F00DCB7FA /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7E024152E7D00DCB7FA /* Intents.intentdefinition */; };
+		B2D3A7EB2415326200DCB7FA /* CityWeatherIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3A7EA2415326200DCB7FA /* CityWeatherIntentHandler.swift */; };
+		B2D3A7EE2415334800DCB7FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D3A7ED2415334800DCB7FA /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B2D3A68D24151FCB00DCB7FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2D3A66E24151FC800DCB7FA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2D3A67524151FC800DCB7FA;
-			remoteInfo = "Siri-Sample";
-		};
-		B2D3A69824151FCB00DCB7FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B2D3A66E24151FC800DCB7FA /* Project object */;
 			proxyType = 1;
@@ -69,6 +73,20 @@
 			remoteGlobalIDString = B2D3A77F2415266600DCB7FA;
 			remoteInfo = WeatherKit;
 		};
+		B2D3A7D024152DF200DCB7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D3A66E24151FC800DCB7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D3A7B924152DF200DCB7FA;
+			remoteInfo = CityWeatherIntent;
+		};
+		B2D3A7DC24152E0B00DCB7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D3A66E24151FC800DCB7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D3A77F2415266600DCB7FA;
+			remoteInfo = WeatherKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,23 +101,46 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2D3A7D924152DF200DCB7FA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B2D3A7D224152DF200DCB7FA /* CityWeatherIntent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D3A7DE24152E0B00DCB7FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B2D3A7DB24152E0B00DCB7FA /* WeatherKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B29CD55024153AE200435990 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		B29CD55124153AE200435990 /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		B29CD55624153AE900435990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B29CD55824153AE900435990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B29CD55C24153AF300435990 /* PendingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingIndicator.swift; sourceTree = "<group>"; };
+		B29CD55E24154A4C00435990 /* Siri-Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Siri-Sample.entitlements"; sourceTree = "<group>"; };
 		B2D3A67624151FC800DCB7FA /* Siri-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siri-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D3A67924151FC800DCB7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D3A67B24151FC800DCB7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2D3A67D24151FC800DCB7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2D3A68024151FC800DCB7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D3A68224151FCB00DCB7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2D3A68524151FCB00DCB7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D3A68724151FCB00DCB7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D3A68C24151FCB00DCB7FA /* Siri-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Siri-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D3A69024151FCB00DCB7FA /* Siri_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siri_SampleTests.swift; sourceTree = "<group>"; };
 		B2D3A69224151FCB00DCB7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2D3A69724151FCB00DCB7FA /* Siri-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Siri-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2D3A69B24151FCB00DCB7FA /* Siri_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siri_SampleUITests.swift; sourceTree = "<group>"; };
-		B2D3A69D24151FCB00DCB7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D3A7802415266600DCB7FA /* WeatherKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeatherKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D3A7822415266600DCB7FA /* WeatherKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherKit.h; sourceTree = "<group>"; };
 		B2D3A7832415266600DCB7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +158,13 @@
 		B2D3A7AF24152B5C00DCB7FA /* APIManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
 		B2D3A7B224152B6100DCB7FA /* WeatherManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherManagerTests.swift; sourceTree = "<group>"; };
 		B2D3A7B324152B6100DCB7FA /* WeatherKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherKitTests.swift; sourceTree = "<group>"; };
+		B2D3A7BA24152DF200DCB7FA /* CityWeatherIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CityWeatherIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D3A7BC24152DF200DCB7FA /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		B2D3A7BE24152DF200DCB7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D3A7C424152DF200DCB7FA /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		B2D3A7E024152E7D00DCB7FA /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		B2D3A7EA2415326200DCB7FA /* CityWeatherIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherIntentHandler.swift; sourceTree = "<group>"; };
+		B2D3A7ED2415334800DCB7FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,13 +177,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B2D3A68924151FCB00DCB7FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2D3A69424151FCB00DCB7FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,17 +198,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2D3A7B724152DF200DCB7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D3A7DA24152E0B00DCB7FA /* WeatherKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B29CD54F24153AE200435990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B29CD55024153AE200435990 /* WeatherViewController.swift */,
+				B29CD55124153AE200435990 /* CityTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B29CD55424153AE900435990 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B29CD55524153AE900435990 /* LaunchScreen.storyboard */,
+				B29CD55724153AE900435990 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B29CD55B24153AF300435990 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B29CD55C24153AF300435990 /* PendingIndicator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B2D3A66D24151FC800DCB7FA = {
 			isa = PBXGroup;
 			children = (
+				B2D3A7ED2415334800DCB7FA /* Default-568h@2x.png */,
 				B2D3A67824151FC800DCB7FA /* Siri-Sample */,
 				B2D3A68F24151FCB00DCB7FA /* Siri-SampleTests */,
-				B2D3A69A24151FCB00DCB7FA /* Siri-SampleUITests */,
 				B2D3A7812415266600DCB7FA /* WeatherKit */,
 				B2D3A78E2415266600DCB7FA /* WeatherKitTests */,
+				B2D3A7BB24152DF200DCB7FA /* CityWeatherIntent */,
 				B2D3A67724151FC800DCB7FA /* Products */,
 				B2D3A6BD241520EE00DCB7FA /* Frameworks */,
 			);
@@ -178,9 +254,9 @@
 			children = (
 				B2D3A67624151FC800DCB7FA /* Siri-Sample.app */,
 				B2D3A68C24151FCB00DCB7FA /* Siri-SampleTests.xctest */,
-				B2D3A69724151FCB00DCB7FA /* Siri-SampleUITests.xctest */,
 				B2D3A7802415266600DCB7FA /* WeatherKit.framework */,
 				B2D3A7882415266600DCB7FA /* WeatherKitTests.xctest */,
+				B2D3A7BA24152DF200DCB7FA /* CityWeatherIntent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,13 +264,14 @@
 		B2D3A67824151FC800DCB7FA /* Siri-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				B2D3A67924151FC800DCB7FA /* AppDelegate.swift */,
+				B29CD55E24154A4C00435990 /* Siri-Sample.entitlements */,
+				B29CD55B24153AF300435990 /* View */,
+				B29CD55424153AE900435990 /* Storyboards */,
+				B29CD54F24153AE200435990 /* Controller */,
 				B2D3A67B24151FC800DCB7FA /* SceneDelegate.swift */,
 				B2D3A67D24151FC800DCB7FA /* ViewController.swift */,
-				B2D3A67F24151FC800DCB7FA /* Main.storyboard */,
+				B2D3A7DF24152E4C00DCB7FA /* Support */,
 				B2D3A68224151FCB00DCB7FA /* Assets.xcassets */,
-				B2D3A68424151FCB00DCB7FA /* LaunchScreen.storyboard */,
-				B2D3A68724151FCB00DCB7FA /* Info.plist */,
 			);
 			path = "Siri-Sample";
 			sourceTree = "<group>";
@@ -208,18 +285,10 @@
 			path = "Siri-SampleTests";
 			sourceTree = "<group>";
 		};
-		B2D3A69A24151FCB00DCB7FA /* Siri-SampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B2D3A69B24151FCB00DCB7FA /* Siri_SampleUITests.swift */,
-				B2D3A69D24151FCB00DCB7FA /* Info.plist */,
-			);
-			path = "Siri-SampleUITests";
-			sourceTree = "<group>";
-		};
 		B2D3A6BD241520EE00DCB7FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2D3A7C424152DF200DCB7FA /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,6 +347,26 @@
 			path = WeatherKit/Support;
 			sourceTree = SOURCE_ROOT;
 		};
+		B2D3A7BB24152DF200DCB7FA /* CityWeatherIntent */ = {
+			isa = PBXGroup;
+			children = (
+				B2D3A7BC24152DF200DCB7FA /* IntentHandler.swift */,
+				B2D3A7BE24152DF200DCB7FA /* Info.plist */,
+				B2D3A7EA2415326200DCB7FA /* CityWeatherIntentHandler.swift */,
+			);
+			path = CityWeatherIntent;
+			sourceTree = "<group>";
+		};
+		B2D3A7DF24152E4C00DCB7FA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B2D3A68724151FCB00DCB7FA /* Info.plist */,
+				B2D3A67924151FC800DCB7FA /* AppDelegate.swift */,
+				B2D3A7E024152E7D00DCB7FA /* Intents.intentdefinition */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -300,11 +389,13 @@
 				B2D3A67324151FC800DCB7FA /* Frameworks */,
 				B2D3A67424151FC800DCB7FA /* Resources */,
 				B2D3A6E9241521DD00DCB7FA /* Embed Frameworks */,
+				B2D3A7D924152DF200DCB7FA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B2D3A7942415266600DCB7FA /* PBXTargetDependency */,
+				B2D3A7D124152DF200DCB7FA /* PBXTargetDependency */,
 			);
 			name = "Siri-Sample";
 			productName = "Siri-Sample";
@@ -328,24 +419,6 @@
 			productName = "Siri-SampleTests";
 			productReference = B2D3A68C24151FCB00DCB7FA /* Siri-SampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B2D3A69624151FCB00DCB7FA /* Siri-SampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2D3A6A624151FCC00DCB7FA /* Build configuration list for PBXNativeTarget "Siri-SampleUITests" */;
-			buildPhases = (
-				B2D3A69324151FCB00DCB7FA /* Sources */,
-				B2D3A69424151FCB00DCB7FA /* Frameworks */,
-				B2D3A69524151FCB00DCB7FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2D3A69924151FCB00DCB7FA /* PBXTargetDependency */,
-			);
-			name = "Siri-SampleUITests";
-			productName = "Siri-SampleUITests";
-			productReference = B2D3A69724151FCB00DCB7FA /* Siri-SampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		B2D3A77F2415266600DCB7FA /* WeatherKit */ = {
 			isa = PBXNativeTarget;
@@ -384,6 +457,25 @@
 			productReference = B2D3A7882415266600DCB7FA /* WeatherKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B2D3A7B924152DF200DCB7FA /* CityWeatherIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D3A7D624152DF200DCB7FA /* Build configuration list for PBXNativeTarget "CityWeatherIntent" */;
+			buildPhases = (
+				B2D3A7B624152DF200DCB7FA /* Sources */,
+				B2D3A7B724152DF200DCB7FA /* Frameworks */,
+				B2D3A7B824152DF200DCB7FA /* Resources */,
+				B2D3A7DE24152E0B00DCB7FA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D3A7DD24152E0B00DCB7FA /* PBXTargetDependency */,
+			);
+			name = CityWeatherIntent;
+			productName = CityWeatherIntent;
+			productReference = B2D3A7BA24152DF200DCB7FA /* CityWeatherIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -401,16 +493,15 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = B2D3A67524151FC800DCB7FA;
 					};
-					B2D3A69624151FCB00DCB7FA = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = B2D3A67524151FC800DCB7FA;
-					};
 					B2D3A77F2415266600DCB7FA = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					B2D3A7872415266600DCB7FA = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = B2D3A67524151FC800DCB7FA;
+					};
+					B2D3A7B924152DF200DCB7FA = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
@@ -429,9 +520,9 @@
 			targets = (
 				B2D3A67524151FC800DCB7FA /* Siri-Sample */,
 				B2D3A68B24151FCB00DCB7FA /* Siri-SampleTests */,
-				B2D3A69624151FCB00DCB7FA /* Siri-SampleUITests */,
 				B2D3A77F2415266600DCB7FA /* WeatherKit */,
 				B2D3A7872415266600DCB7FA /* WeatherKitTests */,
+				B2D3A7B924152DF200DCB7FA /* CityWeatherIntent */,
 			);
 		};
 /* End PBXProject section */
@@ -441,20 +532,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D3A68624151FCB00DCB7FA /* LaunchScreen.storyboard in Resources */,
+				B2D3A7EE2415334800DCB7FA /* Default-568h@2x.png in Resources */,
 				B2D3A68324151FCB00DCB7FA /* Assets.xcassets in Resources */,
-				B2D3A68124151FC800DCB7FA /* Main.storyboard in Resources */,
+				B29CD55A24153AE900435990 /* Main.storyboard in Resources */,
+				B29CD55924153AE900435990 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B2D3A68A24151FCB00DCB7FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2D3A69524151FCB00DCB7FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,6 +561,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2D3A7B824152DF200DCB7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -483,8 +575,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29CD55324153AE200435990 /* CityTableViewController.swift in Sources */,
+				B29CD55D24153AF300435990 /* PendingIndicator.swift in Sources */,
 				B2D3A67E24151FC800DCB7FA /* ViewController.swift in Sources */,
+				B29CD55224153AE200435990 /* WeatherViewController.swift in Sources */,
 				B2D3A67A24151FC800DCB7FA /* AppDelegate.swift in Sources */,
+				B2D3A7E124152E7D00DCB7FA /* Intents.intentdefinition in Sources */,
 				B2D3A67C24151FC800DCB7FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,18 +593,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2D3A69324151FCB00DCB7FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2D3A69C24151FCB00DCB7FA /* Siri_SampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B2D3A77C2415266600DCB7FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D3A7E224152E8E00DCB7FA /* Intents.intentdefinition in Sources */,
 				B2D3A7AB2415269000DCB7FA /* APIKeys.swift in Sources */,
 				B2D3A7AA2415269000DCB7FA /* Constants.swift in Sources */,
 				B2D3A7A52415268700DCB7FA /* APIManager.swift in Sources */,
@@ -530,6 +619,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2D3A7B624152DF200DCB7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D3A7EB2415326200DCB7FA /* CityWeatherIntentHandler.swift in Sources */,
+				B2D3A7E324152E8F00DCB7FA /* Intents.intentdefinition in Sources */,
+				B2D3A7BD24152DF200DCB7FA /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -537,11 +636,6 @@
 			isa = PBXTargetDependency;
 			target = B2D3A67524151FC800DCB7FA /* Siri-Sample */;
 			targetProxy = B2D3A68D24151FCB00DCB7FA /* PBXContainerItemProxy */;
-		};
-		B2D3A69924151FCB00DCB7FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2D3A67524151FC800DCB7FA /* Siri-Sample */;
-			targetProxy = B2D3A69824151FCB00DCB7FA /* PBXContainerItemProxy */;
 		};
 		B2D3A78B2415266600DCB7FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -558,23 +652,33 @@
 			target = B2D3A77F2415266600DCB7FA /* WeatherKit */;
 			targetProxy = B2D3A7932415266600DCB7FA /* PBXContainerItemProxy */;
 		};
+		B2D3A7D124152DF200DCB7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2D3A7B924152DF200DCB7FA /* CityWeatherIntent */;
+			targetProxy = B2D3A7D024152DF200DCB7FA /* PBXContainerItemProxy */;
+		};
+		B2D3A7DD24152E0B00DCB7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2D3A77F2415266600DCB7FA /* WeatherKit */;
+			targetProxy = B2D3A7DC24152E0B00DCB7FA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B2D3A67F24151FC800DCB7FA /* Main.storyboard */ = {
+		B29CD55524153AE900435990 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B2D3A68024151FC800DCB7FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B2D3A68424151FCB00DCB7FA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2D3A68524151FCB00DCB7FA /* Base */,
+				B29CD55624153AE900435990 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B29CD55724153AE900435990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29CD55824153AE900435990 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -699,14 +803,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Siri-Sample/Siri-Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 569MXZ6TKC;
-				INFOPLIST_FILE = "Siri-Sample/Info.plist";
+				INFOPLIST_FILE = "Siri-Sample/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.text.Siri-Sample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Siri-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -718,14 +823,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Siri-Sample/Siri-Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 569MXZ6TKC;
-				INFOPLIST_FILE = "Siri-Sample/Info.plist";
+				INFOPLIST_FILE = "Siri-Sample/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.text.Siri-Sample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Siri-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -773,46 +879,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Siri-Sample.app/Siri-Sample";
-			};
-			name = Release;
-		};
-		B2D3A6A724151FCC00DCB7FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 569MXZ6TKC;
-				INFOPLIST_FILE = "Siri-SampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.text.Siri-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Siri-Sample";
-			};
-			name = Debug;
-		};
-		B2D3A6A824151FCC00DCB7FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 569MXZ6TKC;
-				INFOPLIST_FILE = "Siri-SampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.text.Siri-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Siri-Sample";
 			};
 			name = Release;
 		};
@@ -910,6 +976,44 @@
 			};
 			name = Release;
 		};
+		B2D3A7D724152DF200DCB7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 569MXZ6TKC;
+				INFOPLIST_FILE = CityWeatherIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.text.Siri-Sample.CityWeatherIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2D3A7D824152DF200DCB7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 569MXZ6TKC;
+				INFOPLIST_FILE = CityWeatherIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.text.Siri-Sample.CityWeatherIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -940,15 +1044,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2D3A6A624151FCC00DCB7FA /* Build configuration list for PBXNativeTarget "Siri-SampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2D3A6A724151FCC00DCB7FA /* Debug */,
-				B2D3A6A824151FCC00DCB7FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B2D3A7972415266600DCB7FA /* Build configuration list for PBXNativeTarget "WeatherKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -963,6 +1058,15 @@
 			buildConfigurations = (
 				B2D3A79B2415266600DCB7FA /* Debug */,
 				B2D3A79C2415266600DCB7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D3A7D624152DF200DCB7FA /* Build configuration list for PBXNativeTarget "CityWeatherIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D3A7D724152DF200DCB7FA /* Debug */,
+				B2D3A7D824152DF200DCB7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

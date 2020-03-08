@@ -50,7 +50,8 @@ public class APIManager {
         
     }
     
-    public func getData(from urlString: String, completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
+    public func getData(from urlString: String,
+                        completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
         
         guard let url = URL(string: urlString) else {
             completion(nil, nil, APIError.invalidURL)
