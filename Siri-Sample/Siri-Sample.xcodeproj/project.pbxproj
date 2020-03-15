@@ -127,6 +127,23 @@
 		B2DF528D241E780A00D9BEA3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2DF5294241E78F600D9BEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2DF52B8241E7B0100D9BEA3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B2DF52BA241E7BB500D9BEA3 /* 스크린샷 2020-03-15 오후 11.58.47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.58.47.png"; sourceTree = "<group>"; };
+		B2DF52BB241E7BB500D9BEA3 /* 스크린샷 2020-03-15 오후 11.03.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.03.00.png"; sourceTree = "<group>"; };
+		B2DF52BC241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 10.55.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 10.55.12.png"; sourceTree = "<group>"; };
+		B2DF52BD241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.59.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.59.08.png"; sourceTree = "<group>"; };
+		B2DF52BE241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.30.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.30.14.png"; sourceTree = "<group>"; };
+		B2DF52BF241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.57.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.57.34.png"; sourceTree = "<group>"; };
+		B2DF52C0241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.22.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.22.59.png"; sourceTree = "<group>"; };
+		B2DF52C1241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 10.58.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 10.58.53.png"; sourceTree = "<group>"; };
+		B2DF52C2241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.23.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.23.05.png"; sourceTree = "<group>"; };
+		B2DF52C3241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.17.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.17.34.png"; sourceTree = "<group>"; };
+		B2DF52C4241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 10.58.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 10.58.46.png"; sourceTree = "<group>"; };
+		B2DF52C5241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.31.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.31.17.png"; sourceTree = "<group>"; };
+		B2DF52C6241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.30.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.30.59.png"; sourceTree = "<group>"; };
+		B2DF52C7241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.56.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.56.59.png"; sourceTree = "<group>"; };
+		B2DF52C8241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 10.57.35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 10.57.35.png"; sourceTree = "<group>"; };
+		B2DF52C9241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.57.16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.57.16.png"; sourceTree = "<group>"; };
+		B2DF52CA241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.57.21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2020-03-15 오후 11.57.21.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +187,7 @@
 		B2D3A66D24151FC800DCB7FA = {
 			isa = PBXGroup;
 			children = (
+				B2DF52B9241E7B9400D9BEA3 /* README image */,
 				B2DF52B8241E7B0100D9BEA3 /* README.md */,
 				B2D3A7ED2415334800DCB7FA /* Default-568h@2x.png */,
 				B2D3A67824151FC800DCB7FA /* Siri-Sample */,
@@ -264,6 +282,30 @@
 				B2D3A7EA2415326200DCB7FA /* CityWeatherIntentHandler.swift */,
 			);
 			path = CityWeatherIntent;
+			sourceTree = "<group>";
+		};
+		B2DF52B9241E7B9400D9BEA3 /* README image */ = {
+			isa = PBXGroup;
+			children = (
+				B2DF52BC241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 10.55.12.png */,
+				B2DF52C8241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 10.57.35.png */,
+				B2DF52C4241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 10.58.46.png */,
+				B2DF52C1241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 10.58.53.png */,
+				B2DF52BB241E7BB500D9BEA3 /* 스크린샷 2020-03-15 오후 11.03.00.png */,
+				B2DF52C3241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.17.34.png */,
+				B2DF52C0241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.22.59.png */,
+				B2DF52C2241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.23.05.png */,
+				B2DF52BE241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.30.14.png */,
+				B2DF52C6241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.30.59.png */,
+				B2DF52C5241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.31.17.png */,
+				B2DF52C7241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.56.59.png */,
+				B2DF52C9241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.57.16.png */,
+				B2DF52CA241E7BB700D9BEA3 /* 스크린샷 2020-03-15 오후 11.57.21.png */,
+				B2DF52BF241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.57.34.png */,
+				B2DF52BA241E7BB500D9BEA3 /* 스크린샷 2020-03-15 오후 11.58.47.png */,
+				B2DF52BD241E7BB600D9BEA3 /* 스크린샷 2020-03-15 오후 11.59.08.png */,
+			);
+			path = "README image";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
