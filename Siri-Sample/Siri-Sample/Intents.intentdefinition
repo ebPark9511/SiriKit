@@ -122,7 +122,7 @@
 				<array>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>It's ${weather} in ${city} today.</string>
+						<string>${city}의 오늘 날씨는 ${weather}야.</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>172HeY</string>
 						<key>INIntentResponseCodeName</key>
@@ -136,7 +136,7 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Sorry, we can't find ${city}.</string>
+						<string>${city}를 찾지 못했어</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>qWmL07</string>
 						<key>INIntentResponseCodeName</key>

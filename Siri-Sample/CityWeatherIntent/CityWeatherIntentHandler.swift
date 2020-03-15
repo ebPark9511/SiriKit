@@ -33,7 +33,7 @@ class CityWeatherIntentHandler: NSObject, CityWeatherIntentHandling {
             return
         }
         weatherManager.getWeather(at: city) { weatherInfo in
-            completion(CityWeatherIntentResponse.success(weather: weatherInfo.briefWeather, city: city))
+            completion(CityWeatherIntentResponse.success(city: city, weather: weatherInfo.briefWeather))
         }
     }
 }

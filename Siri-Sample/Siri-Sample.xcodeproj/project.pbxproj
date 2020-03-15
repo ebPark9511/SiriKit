@@ -126,6 +126,7 @@
 		B2DF528A241E76FF00D9BEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2DF528D241E780A00D9BEA3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2DF5294241E78F600D9BEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2DF52B8241E7B0100D9BEA3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +170,7 @@
 		B2D3A66D24151FC800DCB7FA = {
 			isa = PBXGroup;
 			children = (
+				B2DF52B8241E7B0100D9BEA3 /* README.md */,
 				B2D3A7ED2415334800DCB7FA /* Default-568h@2x.png */,
 				B2D3A67824151FC800DCB7FA /* Siri-Sample */,
 				B2D3A7812415266600DCB7FA /* WeatherKit */,
