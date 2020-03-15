@@ -17,7 +17,7 @@ class CityWeatherIntentHandler: NSObject, CityWeatherIntentHandling {
         
         guard let city = intent.city,
             cities.contains(city.displayString) else {
-            completion(CityWeatherIntentResponse.failureNoCity(intent.city?.displayString ?? "City"))
+                completion(CityWeatherIntentResponse.failureNoCity())
             return
         }
         weatherManager.getWeather(at: city.displayString) { weatherInfo in
@@ -25,6 +25,10 @@ class CityWeatherIntentHandler: NSObject, CityWeatherIntentHandling {
         }
     }
     
+    func confirm(intent: CityWeatherIntent, completion: @escaping (CityWeatherIntentResponse) -> Void) {
+        completion(CityWeatherIntentResponse(code: .ready, userActivity: nil))
+    }
+
     func resolveCity(for intent: CityWeatherIntent,
                      with completion: @escaping (CityStringResolutionResult) -> Void) {
         guard let city = intent.city else {
