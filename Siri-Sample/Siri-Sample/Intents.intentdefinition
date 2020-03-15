@@ -7,7 +7,7 @@
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.1</string>
 	<key>INIntentDefinitionNamespace</key>
-	<string>8YCJrY</string>
+	<string>OQGReP</string>
 	<key>INIntentDefinitionSystemVersion</key>
 	<string>18E226</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
@@ -21,22 +21,16 @@
 			<string>generic</string>
 			<key>INIntentConfigurable</key>
 			<true/>
-			<key>INIntentDescription</key>
-			<string>이 도시의 날씨</string>
 			<key>INIntentDescriptionID</key>
-			<string>hKjxJQ</string>
+			<string>Cw7fGQ</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>8</integer>
+			<integer>1</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
 				<key>city</key>
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
-					<key>INIntentParameterCombinationTitle</key>
-					<string>${city}의 날씨</string>
-					<key>INIntentParameterCombinationTitleID</key>
-					<string>Zj2tGw</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
 					<true/>
 				</dict>
@@ -47,16 +41,12 @@
 			<dict>
 				<key>city</key>
 				<dict>
-					<key>INIntentParameterCombinationSubtitle</key>
-					<string>${city}의 날씨</string>
-					<key>INIntentParameterCombinationSubtitleID</key>
-					<string>BHwnLs</string>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>${city}의 날씨</string>
+					<string>${city}'s weather</string>
 					<key>INIntentParameterCombinationTitleID</key>
-					<string>UXHqeV</string>
+					<string>DlWtUs</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -65,17 +55,18 @@
 					<key>INIntentParameterCustomDisambiguation</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>도시</string>
+					<string>City</string>
 					<key>INIntentParameterDisplayNameID</key>
-					<string>QkdeRw</string>
+					<string>O3iRdb</string>
 					<key>INIntentParameterDisplayPriority</key>
 					<integer>1</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+					</dict>
 					<key>INIntentParameterName</key>
 					<string>city</string>
-					<key>INIntentParameterObjectType</key>
-					<string>CityString</string>
-					<key>INIntentParameterObjectTypeNamespace</key>
-					<string>8YCJrY</string>
 					<key>INIntentParameterPromptDialogs</key>
 					<array>
 						<dict>
@@ -84,7 +75,7 @@
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>${city}의 날씨</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>MQcX38</string>
+							<string>B1j1Lj</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
@@ -94,7 +85,7 @@
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>There are ${count} options matching ‘${city}’.</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>kpqnde</string>
+							<string>7Ymx36</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>DisambiguationIntroduction</string>
 						</dict>
@@ -102,7 +93,7 @@
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>Which one?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>bltxEA</string>
+							<string>2qwfab</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>DisambiguationSelection</string>
 						</dict>
@@ -112,7 +103,7 @@
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>Just to confirm, you wanted ‘${city}’?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>aPOzaa</string>
+							<string>9x9rr5</string>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Confirmation</string>
 						</dict>
@@ -120,9 +111,9 @@
 					<key>INIntentParameterSupportsResolution</key>
 					<true/>
 					<key>INIntentParameterTag</key>
-					<integer>8</integer>
+					<integer>1</integer>
 					<key>INIntentParameterType</key>
-					<string>Object</string>
+					<string>String</string>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>
@@ -131,9 +122,9 @@
 				<array>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>${city}는 ${weather}</string>
+						<string>It's ${weather} in ${city} today.</string>
 						<key>INIntentResponseCodeFormatStringID</key>
-						<string>KB4Xls</string>
+						<string>172HeY</string>
 						<key>INIntentResponseCodeName</key>
 						<string>success</string>
 						<key>INIntentResponseCodeSuccess</key>
@@ -144,29 +135,23 @@
 						<string>failure</string>
 					</dict>
 					<dict>
-						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>${city}</string>
-						<key>INIntentResponseCodeConciseFormatStringID</key>
-						<string>Q6taqr</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>${city}는 없는 도시입니다</string>
+						<string>Sorry, we can't find ${city}.</string>
 						<key>INIntentResponseCodeFormatStringID</key>
-						<string>kw7E0K</string>
+						<string>qWmL07</string>
 						<key>INIntentResponseCodeName</key>
 						<string>failureNoCity</string>
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
 				<integer>2</integer>
-				<key>INIntentResponseOutput</key>
-				<string>weather</string>
 				<key>INIntentResponseParameters</key>
 				<array>
 					<dict>
 						<key>INIntentResponseParameterDisplayName</key>
-						<string>도시</string>
+						<string>City</string>
 						<key>INIntentResponseParameterDisplayNameID</key>
-						<string>mtausf</string>
+						<string>ZaL1qt</string>
 						<key>INIntentResponseParameterDisplayPriority</key>
 						<integer>1</integer>
 						<key>INIntentResponseParameterName</key>
@@ -178,9 +163,9 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseParameterDisplayName</key>
-						<string>날씨</string>
+						<string>Weather</string>
 						<key>INIntentResponseParameterDisplayNameID</key>
-						<string>vzUy8T</string>
+						<string>Gb6T8K</string>
 						<key>INIntentResponseParameterDisplayPriority</key>
 						<integer>2</integer>
 						<key>INIntentResponseParameterName</key>
@@ -193,9 +178,9 @@
 				</array>
 			</dict>
 			<key>INIntentTitle</key>
-			<string>오늘의 날씨</string>
+			<string>City Weather</string>
 			<key>INIntentTitleID</key>
-			<string>Oy2Qhu</string>
+			<string>0L2y1k</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentVerb</key>
@@ -203,84 +188,6 @@
 		</dict>
 	</array>
 	<key>INTypes</key>
-	<array>
-		<dict>
-			<key>INTypeDisplayName</key>
-			<string>CityString</string>
-			<key>INTypeDisplayNameID</key>
-			<string>3IRgyM</string>
-			<key>INTypeLastPropertyTag</key>
-			<integer>104</integer>
-			<key>INTypeName</key>
-			<string>CityString</string>
-			<key>INTypeProperties</key>
-			<array>
-				<dict>
-					<key>INTypePropertyDefault</key>
-					<true/>
-					<key>INTypePropertyDisplayPriority</key>
-					<integer>1</integer>
-					<key>INTypePropertyName</key>
-					<string>identifier</string>
-					<key>INTypePropertyTag</key>
-					<integer>1</integer>
-					<key>INTypePropertyType</key>
-					<string>String</string>
-				</dict>
-				<dict>
-					<key>INTypePropertyDefault</key>
-					<true/>
-					<key>INTypePropertyDisplayPriority</key>
-					<integer>2</integer>
-					<key>INTypePropertyName</key>
-					<string>displayString</string>
-					<key>INTypePropertyTag</key>
-					<integer>2</integer>
-					<key>INTypePropertyType</key>
-					<string>String</string>
-				</dict>
-				<dict>
-					<key>INTypePropertyDefault</key>
-					<true/>
-					<key>INTypePropertyDisplayPriority</key>
-					<integer>3</integer>
-					<key>INTypePropertyName</key>
-					<string>pronunciationHint</string>
-					<key>INTypePropertyTag</key>
-					<integer>3</integer>
-					<key>INTypePropertyType</key>
-					<string>String</string>
-				</dict>
-				<dict>
-					<key>INTypePropertyDefault</key>
-					<true/>
-					<key>INTypePropertyDisplayPriority</key>
-					<integer>4</integer>
-					<key>INTypePropertyName</key>
-					<string>alternativeSpeakableMatches</string>
-					<key>INTypePropertySupportsMultipleValues</key>
-					<true/>
-					<key>INTypePropertyTag</key>
-					<integer>4</integer>
-					<key>INTypePropertyType</key>
-					<string>SpeakableString</string>
-				</dict>
-				<dict>
-					<key>INTypePropertyDisplayName</key>
-					<string>Value</string>
-					<key>INTypePropertyDisplayNameID</key>
-					<string>hvrSU9</string>
-					<key>INTypePropertyDisplayPriority</key>
-					<integer>5</integer>
-					<key>INTypePropertyName</key>
-					<string>value</string>
-					<key>INTypePropertyTag</key>
-					<integer>104</integer>
-					<key>INTypePropertyType</key>
-					<string>String</string>
-				</dict>
-			</array>
-		</dict>
-	</array>
+	<array/>
 </dict>
 </plist>

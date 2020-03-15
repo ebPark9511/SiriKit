@@ -27,8 +27,7 @@ class WeatherViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = cityName
-        
-        PendingIndicator.showActivityIndicatory(uiView: self.view)
+         
         
         weatherManager.getWeather(at: cityName) { (weatherInfo) in
             self.updateUI(with: weatherInfo)
@@ -42,7 +41,7 @@ class WeatherViewController: UIViewController {
         
         // assign city weather intent to siri button
         let intent = CityWeatherIntent()
-        intent.city?.value = cityName
+        intent.city = cityName
         intent.suggestedInvocationPhrase = "\(cityName)'s weather"
         siriButton.shortcut = INShortcut(intent: intent)
         
@@ -61,8 +60,7 @@ class WeatherViewController: UIViewController {
             self.minTempLabel.text = String(weatherInfo.temp_min)
             self.tempLabel.text = String(weatherInfo.temp)
             self.maxTempLabel.text = String(weatherInfo.temp_max)
-            
-            PendingIndicator.hideActivityIndicator()
+             
         }
     }
 }
