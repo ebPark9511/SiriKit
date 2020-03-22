@@ -17,7 +17,6 @@ class CityWeatherIntentHandler: NSObject, CityWeatherIntentHandling {
         guard let city = intent.city else {
             return
         }
-        
         completion(.success(with: city ))
     }
     
