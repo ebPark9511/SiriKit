@@ -102,17 +102,6 @@
 		B29CD55024153AE200435990 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		B29CD55124153AE200435990 /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
 		B29CD55E24154A4C00435990 /* Siri-Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Siri-Sample.entitlements"; sourceTree = "<group>"; };
-		B2BC367F242703360029C85A /* guide_siri_project_02.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_project_02.PNG; sourceTree = "<group>"; };
-		B2BC3680242703360029C85A /* guide_siri_project_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_project_00.png; sourceTree = "<group>"; };
-		B2BC3681242703360029C85A /* guide_siri_debugging_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_debugging_01.png; sourceTree = "<group>"; };
-		B2BC3682242703360029C85A /* guide_siri_project_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_project_03.png; sourceTree = "<group>"; };
-		B2BC3683242703360029C85A /* guide_siri_debugging_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_debugging_02.png; sourceTree = "<group>"; };
-		B2BC3684242703360029C85A /* guide_siri_project_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_project_01.png; sourceTree = "<group>"; };
-		B2BC3685242703360029C85A /* guide_siri_debugging_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_debugging_00.png; sourceTree = "<group>"; };
-		B2BC3686242703360029C85A /* guide_siri_project_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_project_06.png; sourceTree = "<group>"; };
-		B2BC3687242703370029C85A /* Siri ShortCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Siri ShortCut.png"; sourceTree = "<group>"; };
-		B2BC3688242703370029C85A /* guide_siri_project_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_project_05.png; sourceTree = "<group>"; };
-		B2BC3689242703370029C85A /* guide_siri_project_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_siri_project_04.png; sourceTree = "<group>"; };
 		B2D3A67624151FC800DCB7FA /* Siri-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siri-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D3A67B24151FC800DCB7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2D3A67D24151FC800DCB7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,31 +167,9 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B2BC368A2427033A0029C85A /* intents */ = {
-			isa = PBXGroup;
-			children = (
-				B2BC3680242703360029C85A /* guide_siri_project_00.png */,
-				B2BC3684242703360029C85A /* guide_siri_project_01.png */,
-				B2BC367F242703360029C85A /* guide_siri_project_02.PNG */,
-				B2BC3682242703360029C85A /* guide_siri_project_03.png */,
-				B2BC3689242703370029C85A /* guide_siri_project_04.png */,
-				B2BC3688242703370029C85A /* guide_siri_project_05.png */,
-				B2BC3686242703360029C85A /* guide_siri_project_06.png */,
-			);
-			path = intents;
-			sourceTree = "<group>";
-		};
-		B2BC368B2427034F0029C85A /* intents UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "intents UI";
-			sourceTree = "<group>";
-		};
 		B2D3A66D24151FC800DCB7FA = {
 			isa = PBXGroup;
 			children = (
-				B2DF52B9241E7B9400D9BEA3 /* README image */,
 				B2DF52B8241E7B0100D9BEA3 /* README.md */,
 				B2D3A7ED2415334800DCB7FA /* Default-568h@2x.png */,
 				B2D3A67824151FC800DCB7FA /* Siri-Sample */,
@@ -297,19 +264,6 @@
 				B2D3A7EA2415326200DCB7FA /* CityWeatherIntentHandler.swift */,
 			);
 			path = CityWeatherIntent;
-			sourceTree = "<group>";
-		};
-		B2DF52B9241E7B9400D9BEA3 /* README image */ = {
-			isa = PBXGroup;
-			children = (
-				B2BC368B2427034F0029C85A /* intents UI */,
-				B2BC368A2427033A0029C85A /* intents */,
-				B2BC3685242703360029C85A /* guide_siri_debugging_00.png */,
-				B2BC3681242703360029C85A /* guide_siri_debugging_01.png */,
-				B2BC3683242703360029C85A /* guide_siri_debugging_02.png */,
-				B2BC3687242703370029C85A /* Siri ShortCut.png */,
-			);
-			path = "README image";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

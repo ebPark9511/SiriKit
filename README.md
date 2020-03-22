@@ -18,7 +18,7 @@ Intents를 UI로 커스텀할수있게 만들어줌
 
 
 [구현편]
-![이미지](./README image/guide_siri_project_00.png)
+![guide_siri_project_00](./README image/intents/guide_siri_project_00)
 project -> Signing & Capabiliies에서
 Siri 사용 추가
 
