@@ -37,8 +37,7 @@
 ![이미지](./image/intents/guide_siri_project_05.png)
 
 
-#### 6) 모든 의도는 CityWeatherIntent.swift를 통하여 처리가 된다. 이를 핸들링 할수 있는 핸들러를 만들어준다.
-![이미지](./image/intents/guide_siri_project_06.png) 
+#### 6) 모든 의도는 CityWeatherIntent.swift를 통하여 처리가 된다. 이를 핸들링 할수 있는 핸들러를 만들어준다.]
 
 ```swift
 import UIKit
