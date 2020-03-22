@@ -5,12 +5,15 @@
 - Intents, Intents UI Framework
 
 - Intents App Extension
+
 User(request) -> SiriKit -> APP Task
 
 - Intents FrameWork? 
+
 우리의 앱과 시스템의 커뮤니케이션을 도와주는 프레임워크
 
 - Intents UI FrameWork?
+
 Intents를 UI로 커스텀할수있게 만들어줌
 
 
@@ -23,7 +26,8 @@ Siri 사용 추가
 New File에서 SiriKit Intent Definition File 추가
 
 
-![이미지](./image/intents/guide_siri_project_03.png)![이미지](./image/intents/guide_siri_project_04.png)
+![이미지](./image/intents/guide_siri_project_02.png)
+![이미지](./image/intents/guide_siri_project_03.png)
 왼쪽 하단 ‘+’ 버튼을 눌러
 내가 원하는 의도대로 request와 response 작성
 
@@ -59,4 +63,6 @@ Siri ShortCut
 
 
 
-참고 URL  :  https://itnext.io/siri-shortcut-tutorial-using-custom-intent-d0f836af5863
+**참고 URL
+https://itnext.io/siri-shortcut-tutorial-using-custom-intent-d0f836af5863
+https://zeddios.tistory.com/271
